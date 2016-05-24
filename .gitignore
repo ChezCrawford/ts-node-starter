@@ -1,0 +1,9 @@
+# Dependency Directories
+node_modules
+typings/
+
+# Source Maps
+*.map
+
+# Compiled Files
+*.js

@@ -1,0 +1,18 @@
+{
+  "name": "ts-node-starter",
+  "version": "0.0.1",
+  "description": "A starter project for Node.js using TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "typings install",
+    "start": "tsc && node app.js",
+    "tsc": "tsc",
+    "tsc:w": "tsc --watch"
+  },
+  "author": "CharlieCrawford@live.com",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  }
+}
